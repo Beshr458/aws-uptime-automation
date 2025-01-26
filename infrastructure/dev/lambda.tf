@@ -18,6 +18,6 @@ module "lambda_scaling_down" {
   runtime          = "python3.12"
   lambda_variables = {
      CLUSTER_NAME = "dev-cluster"
-     RDS_IDS      = ["dev-db1", "dev-db2"]
+     RDS_IDS      = "dev-db1, dev-db2"
    }
 }

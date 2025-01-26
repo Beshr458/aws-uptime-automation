@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "beshr-irland-tf"
+    bucket = "beshr-ireland-tf"
     key    = "uptime-automation"
     region = "eu-west-1"
   }

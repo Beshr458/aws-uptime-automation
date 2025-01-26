@@ -79,5 +79,5 @@ def lambda_handler(event, context):
 
     return {
         'statusCode': 200,
-        'body': 'ECS services updated successfully'  
+        'body': 'Dev infrastructure has been stopped successfully'  
         }

@@ -77,7 +77,7 @@ resource "aws_iam_policy" "lambda_dev_scaling" {
             "ecs:Describe*",
             "application-autoscaling:TagResource",
             "application-autoscaling:RegisterScalableTarget",
-            "application-autoscaling:UntagResource",                        
+            "application-autoscaling:UntagResource"                       
           ],
           "Resource": "*"
         }              
