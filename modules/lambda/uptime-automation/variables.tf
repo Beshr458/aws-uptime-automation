@@ -8,7 +8,7 @@ variable "name" {}
 variable "lambda_timeout" {
   default = "300"
 }
-variable "lambda_variables" { type = map() }
+variable "lambda_variables" { type = map(any) }
 variable "role_arn" {}
 variable "role_name" { default = "" }
 variable "runtime" {}
