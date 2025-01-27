@@ -2,7 +2,7 @@ import boto3
 import os
 
 def lambda_handler(event, context):
-    region = 'us-east-1'
+    region = 'eu-west-1'
     
     # Targeted ECS cluster
     cluster_name = os.getenv('CLUSTER_NAME')
